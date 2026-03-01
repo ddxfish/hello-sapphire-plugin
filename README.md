@@ -1,0 +1,1 @@
+Don't use this. This is just a test plugin. This plugin does nothing. Sapphire v2.1.0 ships with plugin support. 
