@@ -1,0 +1,21 @@
+{
+  "name": "hello-sapphire",
+  "version": "1.0.0",
+  "description": "Hello Sapphire — a test plugin that tells you what Sapphire is",
+  "author": "krem",
+  "url": "https://github.com/ddxfish/hello-sapphire-plugin",
+  "priority": 50,
+  "capabilities": {
+    "tools": ["tools/hello.py"],
+    "settings": [
+      {
+        "key": "sapphire_is",
+        "type": "string",
+        "label": "Sapphire is...",
+        "default": "beautiful",
+        "widget": "text",
+        "help": "What is Sapphire? The AI will tell you when asked."
+      }
+    ]
+  }
+}
